@@ -1,2 +1,0 @@
-Hadoop-and-Mapreduce-Project
-============================
