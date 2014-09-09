@@ -1,6 +1,6 @@
 Hadoop-and-Mapreduce-Project
 ============================
-### Hadoop and MapReduce Udacity Course
+### Hadoop and MapReduce Udacity Course (Editing...)
 
 ###### 1.1 Mapper for Student and Posting Time on Forums
 ###### 1.2 Reducer for Student and Posting Time on Forums
