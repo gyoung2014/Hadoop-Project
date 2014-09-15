@@ -12,7 +12,9 @@ Hadoop-and-Mapreduce-Project
 
 ### 2.Visualization for Reducer Output
 
-######
+###### Student ID and Post Hour
+
+
 
 
 
