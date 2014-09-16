@@ -3,7 +3,7 @@ Hadoop-and-Mapreduce-Project
 
 #### Instruction
 
-The project focuses on exploring Udacity discussion forum data,writing Mapreduce code to 
+The project focuses on exploring Udacity discussion forum data,writing Mapreduce to 
 investigate the correlation between post and average answer length,top ten tags,students posting time and study groups.
 
 References:
@@ -16,7 +16,8 @@ References:
 ###### Mapper & Reducer for Top Ten Tages
 ###### Mapper & Reducer for Study Groups
 
-#### 2.Visualization for Reducer Output
+#### 2.<a href="https://github.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/blob/master/hadoop-and-mapreduce.html">Visualization for Reducer Output</a>
+
 
 
 
