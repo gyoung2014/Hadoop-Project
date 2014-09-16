@@ -17,7 +17,7 @@ References:
 ###### Mapper & Reducer for Top Ten Tages
 ###### Mapper & Reducer for Study Groups
 
-#### 2.<a href="https://github.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/blob/master/hadoop-and-mapreduce.html">Visualization for Reducer Output</a>
+#### 2.<a href="https://rawgit.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/master/hadoop-and-mapreduce.html">Visualization for Reducer Output</a>
 
 
 
