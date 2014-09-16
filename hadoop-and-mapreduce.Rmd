@@ -1,0 +1,60 @@
+# Visualization Reducer Output
+
+```{r}
+library(ggplot2)
+```
+
+### Result1 Student ID and Post Hour
+```{r}
+result1 <- read.table(file='/Users/gaoyang/Desktop/result1.tsv',sep='\t')
+colnames(result1) <- c('student_id','hour')
+
+ggplot(result1,aes(x=hour))+
+  scale_x_continuous(limits=c(0,24),
+                     breaks=seq(0,24,2))+
+  geom_histogram(aes(fill = ..count..),binwidth =0.5)+
+  xlab('Hour')+
+  ylab('The Frequency of Post by Students')+
+  ggtitle('The Post Frequency in Each Hour')
+
+```
+
+### Result 2 Correlation between the length of a post and the length of answers.
+
+```{r}
+result2 <- read.table(file='/Users/gaoyang/Desktop/result2.tsv',sep='\t')
+colnames(result2) <- c('Question_NodeID','Question_Length','Avg_Answer_Length')
+
+ggplot(result2,aes(x=Question_Length,y=Avg_Answer_Length)) +
+  geom_point(color='pink') +
+  xlab('Question Length')+
+  ylab('Average Answer Length')+
+  ggtitle('Correlation between the length of a Post and the length of answers')
+
+library(corrplot)
+var <- c('Question_Length','Avg_Answer_Length')
+r2 <- result2[var]
+M <-cor(r2)
+corrplot(M,method="number")
+
+```
+
+### Result 3 Top Ten Tags
+
+```{r}
+result3 <- read.table(file='/Users/gaoyang/Desktop/result3.tsv',sep='\t')
+colnames(result3) <- c('TagName','Count')
+
+library(wordcloud)
+
+wordcloud(result3$TagName, result3$Count, random.order=FALSE, 
+          colors=brewer.pal(8, "Dark2"))
+
+# save the image in png format
+png("TagNameCloud.png", width=12, height=8, units="in", res=300)
+wordcloud(result3$TagName, result3$Count, random.order=FALSE, 
+          colors=brewer.pal(8, "Dark2"))
+dev.off()
+
+```
+
