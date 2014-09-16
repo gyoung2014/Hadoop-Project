@@ -7,6 +7,7 @@ The project focuses on exploring Udacity discussion forum data,writing Mapreduce
 investigate the correlation between post and average answer length,top ten tags,students posting time and study groups.
 
 References:
+
 [1] https://www.udacity.com/wiki/ud617/local-testing-instructions
 
 #### 1.Mapper & Reducer Code
