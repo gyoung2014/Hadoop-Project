@@ -6,10 +6,6 @@ Hadoop-and-Mapreduce-Project
 The project focuses on exploring Udacity discussion forum data,writing Mapreduce to 
 investigate the correlation between post and average answer length,top ten tags,students posting time and study groups.
 
-References:
-
-[1] https://www.udacity.com/wiki/ud617/local-testing-instructions
-
 #### 1.Mapper & Reducer Code
 
 ###### Mapper & Reducer for Student and Posting Time on Forums
@@ -17,7 +13,9 @@ References:
 ###### Mapper & Reducer for Top Ten Tages
 ###### Mapper & Reducer for Study Groups
 
+References:
 
+[1] https://www.udacity.com/wiki/ud617/local-testing-instructions
 
 
 
