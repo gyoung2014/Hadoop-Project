@@ -58,3 +58,32 @@ dev.off()
 
 ```
 
+### Result 4 Study Group
+
+```{r}
+library(stringr)
+result4 <- read.table(file='/Users/gaoyang/Desktop/result4.tsv',sep='\t')
+colnames(result4) <- c('QuestionNode','StudentID')
+
+```
+
+```{r}
+# select some observations to see network gragh
+sel <- result4[2:14,]
+
+l1 <- lapply(str_extract_all(sel$StudentID, "[0-9]+"), as.numeric)
+r4 <-data.frame(QuestionnNode=rep(sel$QuestionNode,sapply(l1, length)), 
+                StudentID=unlist(l1))
+
+```
+
+```{r}
+library(d3Network)
+d3SimpleNetwork(r4, height = 700, width = 800,
+                opacity = 0.9,
+                textColour = "red", linkColour = "blue",
+                nodeColour = "orange",
+                file="/Users/gaoyang/Desktop/r4.html")
+
+```
+
