@@ -21,7 +21,7 @@ investigate the correlation between post and average answer length,top ten tags,
 
 ###### Visulization for Study Group
 
-![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/Network%20Graph.png "Optional title")
+![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/Network%20Graph.png "Network Graph")
 
 #### References:
 
