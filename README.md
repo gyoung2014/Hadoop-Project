@@ -20,7 +20,7 @@ investigate the correlation between post and average answer length,top ten tags,
 <a href="https://rawgit.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/master/hadoop-and-mapreduce.html">Visualization for Reducer 1 -3 </a>
 
 ###### Visulization for Study Group
-<a href="https://rawgit.com/ryanyoung2014/Hadoop-Project/master/Network%2520Graph.html">Network Graph for Reducer -Study Group </a>
+<a href="https://github.com/ryanyoung2014/Hadoop-Project/blob/master/Network%20Graph.png">Network Graph for Reducer -Study Group </a>
 
 #### References:
 
