@@ -16,10 +16,21 @@ investigate the correlation between post and average answer length,top ten tags,
 
 #### Visualization for Reducer Output
 
-###### Visulization for Student Post,Top Ten Tags,and Correlation between post and answers
-<a href="https://rawgit.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/master/hadoop-and-mapreduce.html">Visualization for Reducer 1 -3 </a>
+###### Student Post
 
-###### Visulization for Study Group
+![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/studentpost.png "Student Post")
+
+###### Tog Ten Tags
+
+![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/TagNameCloud.png "Top Tags")
+
+###### Correlation between post and answers
+
+![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/correlation1.png "corr1")
+
+![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/correlation2.png "corr2")
+
+###### Study Group
 
 ![Alt text](https://github.com/ryanyoung2014/Hadoop-Project/blob/master/Network%20Graph.png "Network Graph")
 
