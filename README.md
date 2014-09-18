@@ -16,10 +16,10 @@ investigate the correlation between post and average answer length,top ten tags,
 
 #### 2.Visualization for Reducer Output
 
-#### Visulization for Student Post,Top Ten Tags,and Correlation between post and answers
+###### Visulization for Student Post,Top Ten Tags,and Correlation between post and answers
 <a href="https://rawgit.com/ryanyoung2014/Hadoop-and-Mapreduce-Project/master/hadoop-and-mapreduce.html">Visualization for Reducer 1 -3 </a>
 
-#### Visulization for Study Group
+###### Visulization for Study Group
 <a href="https://rawgit.com/ryanyoung2014/Hadoop-Project/master/Network%2520Graph.html">Network Graph for Reducer -Study Group </a>
 
 #### References:
