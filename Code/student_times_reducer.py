@@ -18,7 +18,7 @@ def get_max_hour(key,maxhour):
    for i in range(0,len(mx_value)):
        print key,'\t',mx_value[i]
 
-#1.read thpost_houre sorted data from mapper
+#1.read the post_hour sorted data from mapper
 for line in sys.stdin:
     data_mapped =line.strip().split('\t')
     
